@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function checkNumber() {
+        let arr = [ 3,5,7,9,15]
+        let maxNumber = arr[0]
+        for (let i = 0; i < arr.length; i ++) {
+            if (maxNumber < arr[i]) {
+                maxNumber = arr[i]
+            }
+        }
+        return maxNumber;
+    }
+    document.write(checkNumber());
+
+</script>
+</body>
+</html>
